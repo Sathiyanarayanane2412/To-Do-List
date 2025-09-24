@@ -52,6 +52,7 @@ public class Main {
             switch (choice) {
                 case 1:
                     System.out.print("Enter task to add: ");
+                    System.out.print("Enter task to add: ");
                     String taskToAdd = scanner.nextLine();
                     toDoList.addTask(taskToAdd);
                     break;
